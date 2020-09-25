@@ -1,0 +1,70 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    opacity: 0.7;
+}
+
+.nav-list {
+    float: right;
+    margin-top: 10px;
+}
+
+.list-item {
+    display: inline-block;
+    padding: 10px;
+}
+
+.list-item a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-img {
+    height: 803px;
+    width: 1420px;
+    background-image: url(../img/pexels-asad-photo-maldives-457881.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+    height: 47px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    top: 40%;
+    font-family: 'Indie Flower', cursive;
+    opacity: 0.7;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+
+    border-radius: 5px;
+    border: 3px solid grey;
+}
+
+.row {
+    margin: auto;
+}
+
+footer {
+    clear: both;
+}
