@@ -1,11 +1,14 @@
+/* Default settings for every page */
+
 * {
     margin: 0 auto;
 }
 
 body {
-    /* font-family: 'Indie Flower', cursive; */
     font-family: 'Roboto', sans-serif;
 }
+
+/* Navigation bar in every page */
 
 .nav-bar {
     height: 70px;
@@ -13,6 +16,13 @@ body {
     background-color: white;
     position: fixed;
     opacity: 0.7;
+}
+
+.logo {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 .nav-list {
@@ -30,7 +40,9 @@ body {
     font-weight: bold;
 }
 
-.main-img {
+/* Banner in every page */
+
+.main-img1 {
     height: 803px;
     width: 1420px;
     background-image: url(../img/pexels-asad-photo-maldives-457881.jpg);
@@ -38,16 +50,32 @@ body {
     background-size: cover;
 }
 
-.banner-text {
+.banner-text1 {
     height: 47px;
     width: 300px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 25px;
     background-color: white;
     position: relative;
     top: 40%;
     font-family: 'Indie Flower', cursive;
     opacity: 0.7;
+}
+
+.banner-text2 {
+    height: 47px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+    top: 20%;
+    font-family: 'Indie Flower', cursive;
+    opacity: 0.7;
+}
+
+h1 {
+    text-align: center;
 }
 
 .column {
@@ -56,15 +84,115 @@ body {
     margin: 10px;
     padding: 10px;
     height: 300px;
+    background-color: white;
+    opacity: 0.7;
 
-    border-radius: 5px;
+    border-radius: 25px;
     border: 3px solid grey;
 }
 
-.row {
-    margin: auto;
+.column h3  {
+    text-align: center;
+    margin: 10px;
 }
+
+/* Set of columns in index.html */
+
+.row1 {
+    position: relative;
+    top: 70%;
+    left: 15%;
+}
+
+/* Set of columns in about.html */
+
+.row2 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+/* Set of columns in contact.html */
+
+.row3 {
+    position: relative;
+    top: 70%;
+    left: 30%;
+}
+
+.row3 p {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Youtube video in about.html */
+
+iframe {
+    margin: 10px;
+    position: relative;
+    left: 2%;
+}
+
+/* Two columns in about.html */
+
+.box4 {
+    height: 510px;
+    width: 600px;
+}
+
+.box5 {
+    height: 510px;
+    width: 300px;
+}
+
+/* Form in contact.html */
+
+.form {
+    height: 400px;
+    width: 500px;
+    margin: 10px;
+    padding: 50px;
+    background-color: white;
+    top: 40%;
+    left: 30%;
+    opacity: 0.7;
+    border-radius: 25px;
+    position: absolute;
+}
+
+label {
+    display: inline-block;
+    height: 30px;
+    width: 180px;
+}
+
+input {
+    width: 200px;
+}
+
+.message {
+    width: 200px;
+}
+
+/* Google Map in contact.html */
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+
+/* Footer in every page */
 
 footer {
     clear: both;
+    float: left;
 }
