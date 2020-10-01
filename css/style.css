@@ -14,7 +14,7 @@ body {
     width: 100%;
     background-color: white;
     position: fixed;
-    opacity: 0.7;
+    opacity: 0.8;
     z-index: 1;
 }
 
@@ -62,7 +62,7 @@ h1 {
     padding: 10px;
     height: 300px;
     background-color: white;
-    opacity: 0.7;
+    opacity: 0.8;
 
     border-radius: 25px;
     border: 3px solid grey;
@@ -84,7 +84,7 @@ h1 {
     position: relative;
     top: 35%;
     font-family: 'Indie Flower', cursive;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
     /* Set of columns in index.html */
@@ -132,7 +132,7 @@ h1 {
     position: relative;
     top: 15%;
     font-family: 'Indie Flower', cursive;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
     /* Set of columns in about.html */
@@ -169,6 +169,7 @@ audio {
 .box5 a {
     text-decoration: none;
     font-weight: bold;
+    color: black;
 }
 
 .box6 {
@@ -185,9 +186,9 @@ audio {
     /* Set of columns in contact.html */
 
 .row3 {
-    /* position: relative;
-    top: 70%;
-    left: 30%; */
+    position: relative;
+    /* top: 70%; */
+    left: 5%;
     float: left;
 }
 
@@ -225,13 +226,14 @@ audio {
     padding: 50px;
     background-color: white;
     top: 30%;
-    left: 30%;
-    opacity: 0.7;
+    left: 29.5%;
+    opacity: 0.8;
     border-radius: 25px;
     position: absolute;
 }
 
 label {
+    font-weight: bold;
     position: relative;
     left: 100px;
     display: inline-block;
@@ -243,6 +245,12 @@ input {
     width: 200px;
 }
 
+textarea {
+    resize: none;
+    vertical-align: top;
+    font-family: 'Roboto', sans-serif;
+}
+
 .message {
     width: 200px;
 }
@@ -251,18 +259,32 @@ input {
 .map {
     margin: 10px;
     position: absolute;
-    right: 10px;
+    right: 65px;
     float: right;
+}
+
+.center-align {
+    position: relative;
+    left: 183px;
+    top: 30px;
+}
+
+.center-align input {
+    width: 215px;
 }
 
 /* --- Start of Footer --- */
 
     /* Footer in every page */
 footer {
-    margin: 30px;
+    height: 150px;
+    width: 100%;
+    background-color: #7EC0EE; 
+    background-image: linear-gradient(to right, white, #7EC0EE, white);
+    margin-top: 30px;
     clear: both;
     float: left;
-    opacity: 0.7;
+    /* opacity: 0.8; */
 }
 
     /* Footer broken up into 3 mini boxes: Submit section, social media, copyrights */
