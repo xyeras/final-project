@@ -305,9 +305,4 @@ footer {
     font-size: 30px;
     margin-right: 5px;
 }
-
-.fab::before {
-        display: inline-block;
-        text-decoration: none;
-}
 /* --- End of Footer --- */
