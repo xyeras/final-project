@@ -1,5 +1,4 @@
-/* Default settings for every page */
-
+/* --- Default settings for every page --- */
 * {
     margin: 0 auto;
 }
@@ -8,14 +7,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Navigation bar in every page */
-
+    /* Navigation bar in every page */
 .nav-bar {
+    display: inline-block;
     height: 70px;
     width: 100%;
     background-color: white;
     position: fixed;
     opacity: 0.7;
+    z-index: 1;
 }
 
 .logo {
@@ -38,40 +38,17 @@ body {
 .list-item a {
     text-decoration: none;
     font-weight: bold;
+    color: black;
 }
 
-/* Banner in every page */
-
+    /* Banner  */
 .main-img1 {
     height: 803px;
     width: 1420px;
     background-image: url(../img/pexels-asad-photo-maldives-457881.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.banner-text1 {
-    height: 47px;
-    width: 300px;
-    padding: 10px;
-    border-radius: 25px;
-    background-color: white;
-    position: relative;
-    top: 40%;
-    font-family: 'Indie Flower', cursive;
-    opacity: 0.7;
-}
-
-.banner-text2 {
-    height: 47px;
-    width: 300px;
-    padding: 10px;
-    border-radius: 25px;
-    background-color: white;
-    position: relative;
-    top: 20%;
-    font-family: 'Indie Flower', cursive;
-    opacity: 0.7;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -95,29 +72,123 @@ h1 {
     text-align: center;
     margin: 10px;
 }
+/* -- End of Default Settings */
 
-/* Set of columns in index.html */
+/* --- Start of index.html --- */
+.banner-text1 {
+    height: 47px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+    top: 35%;
+    font-family: 'Indie Flower', cursive;
+    opacity: 0.7;
+}
 
+    /* Set of columns in index.html */
 .row1 {
     position: relative;
     top: 70%;
-    left: 15%;
+    left: 7%;
 }
 
-/* Set of columns in about.html */
+    /* Three colums in Row 1 in index.html */
+.box1 {
+    height: 50%;
+    width: 40%;
+}
+
+.box2 {
+    height: 50%;
+    width: 40%;
+}
+
+.box3 {
+    height: 50%;
+    width: 40%;
+}
+
+.box4 {
+    height: 50%;
+    width: 40%;
+}
+
+.pic1 {
+    height: 327px;
+    width: 540px;
+    border-radius: 25px;
+}
+/* --- End of index.html * ---/
+
+/* --- Start of about.html --- */
+.banner-text2 {
+    height: 47px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+    top: 15%;
+    font-family: 'Indie Flower', cursive;
+    opacity: 0.7;
+}
+
+    /* Set of columns in about.html */
 
 .row2 {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 15%;
 }
 
-/* Set of columns in contact.html */
+    /* Youtube video in about.html */
+
+.vid {
+    margin: 10px;
+    position: relative;
+    left: 2%;
+}
+
+audio {
+    margin: 10px;
+}
+
+    /* Two columns in Row 2 in about.html */
+
+.box5 {
+    height: 510px;
+    width: 600px;
+}
+
+.box5 p {
+    text-align: center;
+}
+
+.box5 a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box6 {
+    height: 510px;
+    width: 320px;
+}
+
+.box6 p {
+    line-height: 1.6;
+}
+/* --- End of about.html */
+
+/* --- Start of contact.html --- */
+    /* Set of columns in contact.html */
 
 .row3 {
-    position: relative;
+    /* position: relative;
     top: 70%;
-    left: 30%;
+    left: 30%; */
+    float: left;
 }
 
 .row3 p {
@@ -125,35 +196,35 @@ h1 {
     margin: 10px;
 }
 
-/* Youtube video in about.html */
+    /* Two columns in Row 3 in contact.html */
 
-iframe {
-    margin: 10px;
-    position: relative;
-    left: 2%;
-}
-
-/* Two columns in about.html */
-
-.box4 {
-    height: 510px;
-    width: 600px;
-}
-
-.box5 {
-    height: 510px;
+.box7 {
+    height: 300px;
     width: 300px;
 }
 
-/* Form in contact.html */
+.box8 {
+    height: 300px;
+    width: 300px;
+}
+
+.pic2 {
+    height: 209px;
+    width: 130px;
+    position: relative;
+    left: 80px;
+    border-radius: 25px;
+}
+
+    /* Form in contact.html */
 
 .form {
-    height: 400px;
+    height: 300px;
     width: 500px;
     margin: 10px;
     padding: 50px;
     background-color: white;
-    top: 40%;
+    top: 30%;
     left: 30%;
     opacity: 0.7;
     border-radius: 25px;
@@ -161,6 +232,8 @@ iframe {
 }
 
 label {
+    position: relative;
+    left: 100px;
     display: inline-block;
     height: 30px;
     width: 180px;
@@ -174,25 +247,67 @@ input {
     width: 200px;
 }
 
-/* Google Map in contact.html */
-
-.mapouter {
-    position: relative;
-    text-align: right;
-    height: 500px;
-    width: 600px;
+    /* Google Map in contact.html */
+.map {
+    margin: 10px;
+    position: absolute;
+    right: 10px;
+    float: right;
 }
 
-.gmap_canvas {
-    overflow:hidden;
-    background:none!important;
-    height:500px;
-    width:600px;
-}
+/* --- Start of Footer --- */
 
-/* Footer in every page */
-
+    /* Footer in every page */
 footer {
+    margin: 30px;
     clear: both;
     float: left;
+    opacity: 0.7;
 }
+
+    /* Footer broken up into 3 mini boxes: Submit section, social media, copyrights */
+
+.mini1 {
+    /* float: left; */
+    position: absolute;
+    margin: 10px;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.mini2 {
+    /* float: left; */
+    position: absolute;
+    left: 46%;
+    margin: 10px;
+}
+
+.fa-twitter-square {
+    color: #1DA1F2;
+}
+
+.mini3 {
+    /* float: left; */
+    position: absolute;
+    left: 75%;
+    margin: 10px;
+}
+
+.fa-instagram {
+    color: black;
+    background-image: linear-gradient(to right, #405DE6 , #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    border-radius: 25px;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.fab::before {
+        display: inline-block;
+        text-decoration: none;
+}
+/* --- End of Footer --- */
