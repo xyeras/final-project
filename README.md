@@ -11,4 +11,4 @@ Royalty-Free Photo Credits
 - All Maldives Photoshots (Credit: Asad Photo Maldives)
 - Shiba Inu with Leash (Credit: Evgeny Tchebotarev)
 - Shiba Inu with Pink Background (Credit: Anna Shvets)
-- Shiba Inu on Couch (Credit: cotton)
+- Shiba Inu on Couch (Credit: cottonbro)
