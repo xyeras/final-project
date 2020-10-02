@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', algerian;
 }
 
     /* Navigation bar in every page */
@@ -44,7 +44,7 @@ body {
 
 .list-item a:hover {
     background-color: #7EC0EE;
-    border-radius: 25px;
+    border-radius: 32px;
 }
 
     /* Banner  */
@@ -124,7 +124,7 @@ h1 {
 .pic1 {
     height: 327px;
     width: 540px;
-    border-radius: 25px;
+    border-radius: 32px;
 }
 /* --- End of index.html * ---/
 
@@ -257,7 +257,7 @@ input {
 textarea {
     resize: none;
     vertical-align: top;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', algerian;
 }
 
 .message {
@@ -289,7 +289,7 @@ textarea {
 footer {
     height: 150px;
     width: 100%;
-    background-color: #7EC0EE; 
+    background-color: #7EC00E; 
     background-image: linear-gradient(to right, white, #7EC0EE, white);
     margin-top: 30px;
     clear: both;
@@ -319,13 +319,13 @@ footer {
 }
 
 .fa-facebook {
-    color: #3b5998;
+    color: #3b5658;
     background-color: white;
     border-radius: 50px;
 }
 
 .fa-twitter-square {
-    color: #1DA1F2;
+    color: #1265F2;
     background-color: white;
     border-radius: 5px;
 }
@@ -333,7 +333,7 @@ footer {
 .fa-instagram {
     color: black;
     background-color: white; /* Default if gradient does not work */
-    background-image: linear-gradient(to right, #405DE6 , #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    background-image: linear-gradient(to right, #405DE6 , #5851DB, #833AB4, #C13584, #E7896C, #321D1D, #F56040, #F77737, #FCAF45, #FFDC80);
     border-radius: 50px;
 }
 
