@@ -36,9 +36,15 @@ body {
 }
 
 .list-item a {
+    padding: 10px;
     text-decoration: none;
     font-weight: bold;
     color: black;
+}
+
+.list-item a:hover {
+    background-color: #7EC0EE;
+    border-radius: 25px;
 }
 
     /* Banner  */
@@ -163,7 +169,9 @@ audio {
 }
 
 .box5 p {
-    text-align: center;
+    margin: 10px;
+    line-height: 1.6;
+    /* text-align: center; */
 }
 
 .box5 a {
@@ -178,6 +186,7 @@ audio {
 }
 
 .box6 p {
+    margin: 10px;
     line-height: 1.6;
 }
 /* --- End of about.html */
@@ -255,14 +264,7 @@ textarea {
     width: 200px;
 }
 
-    /* Google Map in contact.html */
-.map {
-    margin: 10px;
-    position: absolute;
-    right: 65px;
-    float: right;
-}
-
+    /* Submit Button */
 .center-align {
     position: relative;
     left: 183px;
@@ -271,6 +273,14 @@ textarea {
 
 .center-align input {
     width: 215px;
+}
+
+    /* Google Map in contact.html */
+.map {
+    margin: 10px;
+    position: absolute;
+    right: 65px;
+    float: right;
 }
 
 /* --- Start of Footer --- */
@@ -295,10 +305,6 @@ footer {
     margin: 10px;
 }
 
-.fa-facebook {
-    color: #3b5998;
-}
-
 .mini2 {
     /* float: left; */
     position: absolute;
@@ -306,8 +312,29 @@ footer {
     margin: 10px;
 }
 
+.fab {
+    font-size: 30px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: #3b5998;
+    background-color: white;
+    border-radius: 50px;
+}
+
 .fa-twitter-square {
     color: #1DA1F2;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.fa-instagram {
+    color: black;
+    background-color: white; /* Default if gradient does not work */
+    background-image: linear-gradient(to right, #405DE6 , #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    border-radius: 50px;
 }
 
 .mini3 {
@@ -315,16 +342,5 @@ footer {
     position: absolute;
     left: 75%;
     margin: 10px;
-}
-
-.fa-instagram {
-    color: black;
-    background-image: linear-gradient(to right, #405DE6 , #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
-    border-radius: 25px;
-}
-
-.fab {
-    font-size: 30px;
-    margin-right: 5px;
 }
 /* --- End of Footer --- */
